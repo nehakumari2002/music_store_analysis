@@ -12,7 +12,7 @@ LIMIT 1
 
 SELECT COUNT(*) AS c, billing_country 
 FROM invoice
-GROUP BY billing_country
+GROUP BY billing_country 
 ORDER BY c DESC
 
 
